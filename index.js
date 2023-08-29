@@ -23,7 +23,7 @@ app.use(express.static('public'));
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get('/', function (req, res) {
-  res.sendFile(root + '/boilerplate-project-timestamp/views/index.html');
+  res.sendFile(root + '/public/index.html');
 });
 
 // your first API endpoint...
